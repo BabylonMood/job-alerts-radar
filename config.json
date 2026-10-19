@@ -2,28 +2,48 @@
   "imap_host": "imap.gmail.com",
   "imap_user": "configurado-via-secret",
   "_comentario_imap_pass": "No pongas la contraseña acá. Usá el secret IMAP_PASS en GitHub Actions.",
-  "_comentario_matching": "Ejemplo de configuración. Ajustá los filtros a tu búsqueda: el matching ignora acentos y mayúsculas.",
 
   "senders": [
     "jobs-noreply@linkedin.com",
     "jobalerts-noreply@linkedin.com",
-    "notificaciones@computrabajo.com",
-    "no-reply@bumeran.com.ar",
-    "alertas@zonajobs.com.ar",
-    "noreply@indeed.com"
+    "trabajos_ar@computrabajo.com",
+    "no_reply@bumeran.com"
   ],
 
   "keywords_include": [
+    "project marketing manager",
+    "marketing project manager",
+    "marketing manager",
     "project manager",
     "project management",
+    "marketing",
+    "automatizacion",
+    "automatizaciones",
+    "automation",
+    "automations",
+    "rpa",
+    "no-code",
+    "low-code",
+    "workflow",
+    "workflows",
+    "zapier",
+    "make.com",
+    "n8n",
+    "trainee",
+    "traineeship",
+    "junior",
     "coordinador de proyectos",
-    "operations manager",
-    "asistente virtual",
-    "agencia de marketing",
-    "account manager"
+    "coordinadora de proyectos",
+    "gestion de proyectos",
+    "pmo",
+    "scrum master",
+    "account manager",
+    "analista de marketing"
   ],
   "keywords_exclude": [
     "pasantia",
-    "ventas puerta a puerta"
+    "ventas puerta a puerta",
+    "presencial",
+    "hibrido"
   ]
 }
