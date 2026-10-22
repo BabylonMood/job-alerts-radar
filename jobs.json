@@ -1,5 +1,37 @@
 [
   {
+    "id": "96981bcd93a1dd1c",
+    "title": "Tu solicitud para el puesto de Project Manager",
+    "company": "Gravity Global",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/help/linkedin/answer/4788",
+    "matched_keywords": [
+      "project manager",
+      "marketing",
+      "automation",
+      "workflow"
+    ],
+    "found_at": "2026-10-22T17:23:35.087828+00:00",
+    "snippet": "Tu actualización de Gravity Global ---------------------------------------- Este email está dirigido a Iara Carrero (Project Manager | Marketing Operations & Workflow Automation (AI).) Averigua por qué incluimos esto",
+    "status": "new"
+  },
+  {
+    "id": "42fac653b2000258",
+    "title": "Tu solicitud para el puesto de Project Coordinator",
+    "company": "Interlix",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/help/linkedin/answer/4788",
+    "matched_keywords": [
+      "project manager",
+      "marketing",
+      "automation",
+      "workflow"
+    ],
+    "found_at": "2026-10-22T17:23:35.621599+00:00",
+    "snippet": "Tu actualización de Interlix Staffing ---------------------------------------- Este email está dirigido a Iara Carrero (Project Manager | Marketing Operations & Workflow Automation (AI).) Averigua por qué incluimos esto",
+    "status": "new"
+  },
+  {
     "id": "80b5b413c79fe873",
     "title": "Project Management & Field Service Trainee",
     "company": "Siemens Energy",
