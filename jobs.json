@@ -1,5 +1,31 @@
 [
   {
+    "id": "99d6b228bd413d17",
+    "title": "Marketing Assistant",
+    "company": "Remote Leverage",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4481298435/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-10-24T21:17:30.450861+00:00",
+    "snippet": "Marketing Assistant · Remote Leverage · América Latina",
+    "status": "new"
+  },
+  {
+    "id": "241f8fd372090591",
+    "title": "Project Manager",
+    "company": "OLIVER Latin America",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4471942892/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-10-24T21:17:31.027547+00:00",
+    "snippet": "Project Manager · OLIVER Latin America · Buenos Aires",
+    "status": "new"
+  },
+  {
     "id": "afd83d37f934492e",
     "title": "Director, Project Management",
     "company": "Worley",
