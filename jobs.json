@@ -1,5 +1,32 @@
 [
   {
+    "id": "67e85fd06d3ee755",
+    "title": "Marketing Automation Engineer",
+    "company": "WEX",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4483153953/",
+    "matched_keywords": [
+      "marketing",
+      "automation"
+    ],
+    "found_at": "2026-10-25T15:10:53.270389+00:00",
+    "snippet": "Marketing Automation Engineer · WEX · São Paulo y alrededores",
+    "status": "new"
+  },
+  {
+    "id": "41e5a91a431fb2e5",
+    "title": "Marketing Traffic Manager",
+    "company": "Gallagher",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4444178865/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-10-25T15:10:53.719906+00:00",
+    "snippet": "Marketing Traffic Manager · Gallagher · Bogotá",
+    "status": "new"
+  },
+  {
     "id": "99d6b228bd413d17",
     "title": "Marketing Assistant",
     "company": "Remote Leverage",
