@@ -1,5 +1,34 @@
 [
   {
+    "id": "23f5a2b28749c8df",
+    "title": "OrangeUP ha visto tu solicitud",
+    "company": "No especificada",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/help/linkedin/answer/4788",
+    "matched_keywords": [
+      "project manager",
+      "marketing",
+      "automation",
+      "workflow"
+    ],
+    "found_at": "2026-10-27T14:43:39.748666+00:00",
+    "snippet": "Este email está dirigido a Iara Carrero (Project Manager | Marketing Operations & Workflow Automation (AI).) Averigua por qué incluimos esto",
+    "status": "new"
+  },
+  {
+    "id": "e897ad39093f202f",
+    "title": "Project Manager",
+    "company": "Jobgether",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4482926555/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-10-27T14:43:40.648547+00:00",
+    "snippet": "Project Manager · Jobgether · España",
+    "status": "new"
+  },
+  {
     "id": "2c40855124a93172",
     "title": "Head of Marketing",
     "company": "WeSpeak",
