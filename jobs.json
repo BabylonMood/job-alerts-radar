@@ -1,5 +1,44 @@
 [
   {
+    "id": "bd279b8201a077ed",
+    "title": "Project Manager",
+    "company": "Real Hires",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4482049770/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-10-28T08:48:35.870366+00:00",
+    "snippet": "Project Manager · Real Hires · América Latina",
+    "status": "new"
+  },
+  {
+    "id": "1e1f8fa183beb7f7",
+    "title": "TRAINEE CBC EL SALVADOR",
+    "company": "cbc",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4481476218/",
+    "matched_keywords": [
+      "trainee"
+    ],
+    "found_at": "2026-10-28T08:48:36.559253+00:00",
+    "snippet": "TRAINEE CBC EL SALVADOR · cbc · San Salvador",
+    "status": "new"
+  },
+  {
+    "id": "fe842adbd9fbe300",
+    "title": "AI Marketing Transformation Manager",
+    "company": "Pluxee",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4481489523/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-10-28T08:48:37.219466+00:00",
+    "snippet": "AI Marketing Transformation Manager · Pluxee · Miguel Hidalgo, CMX",
+    "status": "new"
+  },
+  {
     "id": "2b04d3a2a25a8894",
     "title": "Project Manager, Core",
     "company": "Power Digital Marketing",
