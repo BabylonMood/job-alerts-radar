@@ -1205,18 +1205,5 @@
     "found_at": "2026-10-04T14:10:00+00:00",
     "snippet": "Account Manager · Agencia Ejemplo · Remoto",
     "status": "new"
-  },
-  {
-    "id": "ex-0008",
-    "title": "Community Manager",
-    "company": "Estudio Norte",
-    "source": "computrabajo",
-    "url": "https://example.com/ofertas/community-manager-estudio-norte",
-    "matched_keywords": [
-      "agencia de marketing"
-    ],
-    "found_at": "2026-10-03T10:25:00+00:00",
-    "snippet": "Community Manager · Estudio Norte · Rosario",
-    "status": "new"
   }
 ]
