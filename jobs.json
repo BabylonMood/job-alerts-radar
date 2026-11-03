@@ -1,5 +1,18 @@
 [
   {
+    "id": "7660d92c08d64e86",
+    "title": "Project Manager",
+    "company": "Jobgether",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4485472209/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-03T18:31:47.408379+00:00",
+    "snippet": "Project Manager · Jobgether · España",
+    "status": "new"
+  },
+  {
     "id": "a0d9580ef9f9b388",
     "title": "Project Manager – Video Agency",
     "company": "Virtustant",
@@ -1217,19 +1230,6 @@
     ],
     "found_at": "2026-10-05T08:50:00+00:00",
     "snippet": "Analista Administrativo · Servicios Muestra · Córdoba",
-    "status": "new"
-  },
-  {
-    "id": "ex-0007",
-    "title": "Account Manager",
-    "company": "Agencia Ejemplo",
-    "source": "linkedin",
-    "url": "https://example.com/ofertas/account-manager-agencia-ejemplo",
-    "matched_keywords": [
-      "account manager"
-    ],
-    "found_at": "2026-10-04T14:10:00+00:00",
-    "snippet": "Account Manager · Agencia Ejemplo · Remoto",
     "status": "new"
   }
 ]
