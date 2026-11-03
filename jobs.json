@@ -1,5 +1,44 @@
 [
   {
+    "id": "7bc917e12d1a86c9",
+    "title": "Project Manager",
+    "company": "My Xcell Network Corp",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4486444398/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-03T23:45:03.010598+00:00",
+    "snippet": "Project Manager · My Xcell Network Corp · Colombia",
+    "status": "new"
+  },
+  {
+    "id": "c200de301ed08314",
+    "title": "Marketing Assistant",
+    "company": "Right Balance ®",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4473704847/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-11-03T23:45:03.738151+00:00",
+    "snippet": "Marketing Assistant · Right Balance ® · América Latina",
+    "status": "new"
+  },
+  {
+    "id": "7d47914a8d14d985",
+    "title": "🔔 Alerta inmediata: Iara, hay una nueva oferta para Marketing",
+    "company": "No especificada",
+    "source": "bumeran",
+    "url": "",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-11-03T23:45:04.460193+00:00",
+    "snippet": "Hay nuevos empleos para tu alerta inmediata Marketing ¡Aprovechá y postulate antes que nadie! Nuevo Recién publicado Confidencial Responsable de Marketing Capital Federal, Buenos Aires Full-time Remoto Apto discapacidad Postulación rápida ¿Querés dejar de recibir este email? Gestioná tu alerta Recor",
+    "status": "new"
+  },
+  {
     "id": "7660d92c08d64e86",
     "title": "Project Manager",
     "company": "Jobgether",
