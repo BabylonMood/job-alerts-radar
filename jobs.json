@@ -1,5 +1,31 @@
 [
   {
+    "id": "da73f15b891995cb",
+    "title": "Project Manager",
+    "company": "Octave",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4485436973/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-04T11:41:31.612776+00:00",
+    "snippet": "Project Manager · Octave · Buenos Aires y alrededores",
+    "status": "new"
+  },
+  {
+    "id": "64f2e461b236e67b",
+    "title": "Executive Assistant-Marketing",
+    "company": "InsideOut",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4484378735/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-11-04T11:41:31.980658+00:00",
+    "snippet": "Executive Assistant-Marketing · InsideOut · América Latina",
+    "status": "new"
+  },
+  {
     "id": "fe56a3f74abfe5af",
     "title": "Business Operations - Junior - Startup de Inteligencia Artificial",
     "company": "Insuranai",
@@ -1282,19 +1308,6 @@
     ],
     "found_at": "2026-10-06T15:30:00+00:00",
     "snippet": "Asistente Ejecutiva · Consultora Demo · Remoto",
-    "status": "new"
-  },
-  {
-    "id": "ex-0006",
-    "title": "Analista Administrativo",
-    "company": "Servicios Muestra",
-    "source": "indeed",
-    "url": "https://example.com/ofertas/analista-administrativo-servicios-muestra",
-    "matched_keywords": [
-      "analista administrativo"
-    ],
-    "found_at": "2026-10-05T08:50:00+00:00",
-    "snippet": "Analista Administrativo · Servicios Muestra · Córdoba",
     "status": "new"
   }
 ]
