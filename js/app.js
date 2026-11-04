@@ -19,10 +19,66 @@ const STATUS_LABELS = {
   discarded: 'Descartado'
 };
 
+const LANG_LABELS = {
+  es: 'Español',
+  en: 'Inglés',
+  pt: 'Portugués'
+};
+
+const LANG_HINTS = {
+  es: ['el', 'la', 'los', 'las', 'de', 'para', 'con', 'experiencia', 'conocimientos',
+       'requisitos', 'funciones', 'empresa', 'trabajo', 'remoto', 'sueldo', 'busqueda',
+       'puesto', 'tareas', 'espanol', 'castellano', 'anos', 'mas', 'desde', 'entre',
+       'sobre', 'usted', 'nuestro', 'nuestra'],
+  en: ['the', 'and', 'with', 'experience', 'requirements', 'skills', 'job', 'work',
+       'remote', 'salary', 'apply', 'company', 'team', 'you', 'we', 'our', 'english',
+       'years', 'from', 'this', 'that', 'will', 'are', 'your', 'looking', 'position'],
+  pt: ['para', 'com', 'experiencia', 'conhecimentos', 'requisitos', 'funcoes', 'empresa',
+       'trabalho', 'remoto', 'salario', 'vaga', 'portugues', 'anos', 'mais', 'como',
+       'dos', 'das', 'nao', 'voce', 'nosso', 'nossa', 'atuacao', 'beneficios']
+};
+
 let JOBS = [];
 let STATUS = {};
 
 const $ = (id) => document.getElementById(id);
+
+function normalize(value) {
+  return String(value == null ? '' : value)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+function parseTerms(value) {
+  return normalize(value)
+    .split(/[,;\n]+/)
+    .map((t) => t.trim())
+    .filter((t) => t.length > 0);
+}
+
+function jobText(job) {
+  return normalize([
+    job.title || '',
+    job.company || '',
+    job.snippet || '',
+    (job.matched_keywords || []).join(' ')
+  ].join(' '));
+}
+
+function detectLang(job) {
+  const text = jobText(job);
+  const tokens = text.split(/[^a-z0-9]+/).filter(Boolean);
+  const counts = new Set(tokens);
+  const scores = { es: 0, en: 0, pt: 0 };
+  Object.keys(LANG_HINTS).forEach((lang) => {
+    LANG_HINTS[lang].forEach((word) => {
+      if (counts.has(word)) scores[lang] += 1;
+    });
+  });
+  const best = Object.keys(scores).reduce((a, b) => (scores[b] > scores[a] ? b : a), 'es');
+  return scores[best] >= 2 ? best : '';
+}
 
 function esc(value) {
   return String(value == null ? '' : value).replace(/[&<>"']/g, (c) => (
@@ -92,6 +148,9 @@ function restorePrefs() {
   $('hide-discarded').checked = p.hideDiscarded !== false;
   $('hide-old').checked = p.hideOld !== false;
   $('filter-source').value = p.source || '';
+  $('kw-include').value = p.kwInclude || '';
+  $('kw-exclude').value = p.kwExclude || '';
+  $('filter-lang').value = p.lang || '';
 }
 
 function persistPrefs() {
@@ -100,7 +159,10 @@ function persistPrefs() {
     source: $('filter-source').value,
     status: $('filter-status').value,
     hideDiscarded: $('hide-discarded').checked,
-    hideOld: $('hide-old').checked
+    hideOld: $('hide-old').checked,
+    kwInclude: $('kw-include').value,
+    kwExclude: $('kw-exclude').value,
+    lang: $('filter-lang').value
   });
 }
 
@@ -126,6 +188,8 @@ function buildDraft(job) {
 
 function jobHTML(job) {
   const status = STATUS[job.id] || 'new';
+  const lang = detectLang(job);
+  const langChip = lang ? '<span class="lang-chip">' + LANG_LABELS[lang] + '</span>' : '';
   const kwChips = (job.matched_keywords || [])
     .map((k) => '<span class="kw">' + esc(k) + '</span>')
     .join('');
@@ -137,7 +201,7 @@ function jobHTML(job) {
     '</div>',
     '<h3>' + esc(job.title) + '</h3>',
     '<div class="company">' + esc(job.company) + '</div>',
-    '<div class="meta"><span>' + timeAgo(job.found_at) + '</span><span>' + formatDate(job.found_at) + '</span></div>',
+    '<div class="meta"><span>' + timeAgo(job.found_at) + '</span><span>' + formatDate(job.found_at) + '</span>' + langChip + '</div>',
     '<div class="snippet">' + esc(job.snippet || '') + '</div>',
     '<div class="kw-row">' + kwChips + '</div>',
     '<div class="job-actions">',
@@ -160,22 +224,31 @@ function jobHTML(job) {
 }
 
 function filteredJobs() {
-  const q = $('search').value.trim().toLowerCase();
+  const q = normalize($('search').value.trim());
   const src = $('filter-source').value;
   const st = $('filter-status').value;
   const hideDiscarded = $('hide-discarded').checked;
   const hideOld = $('hide-old').checked;
+  const include = parseTerms($('kw-include').value);
+  const exclude = parseTerms($('kw-exclude').value);
+  const lang = $('filter-lang').value;
   const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
   return JOBS.filter((j) => {
     const status = STATUS[j.id] || 'new';
-    const hay = (j.title + ' ' + (j.company || '') + ' ' + (j.matched_keywords || []).join(' ')).toLowerCase();
+    const hay = jobText(j);
     const isOld = new Date(j.found_at).getTime() < cutoff;
+    const matchesInclude = !include.length || include.some((t) => hay.includes(t));
+    const matchesExclude = exclude.some((t) => hay.includes(t));
+    const matchesLang = !lang || detectLang(j) === lang;
     return (
       (!q || hay.includes(q)) &&
       (!src || j.source === src) &&
       (!st || status === st) &&
       (!hideDiscarded || status !== 'discarded') &&
-      (!hideOld || !isOld)
+      (!hideOld || !isOld) &&
+      matchesInclude &&
+      !matchesExclude &&
+      matchesLang
     );
   });
 }
@@ -311,7 +384,53 @@ function markAllReviewed() {
   render();
 }
 
+function applyURLParams() {
+  const params = new URLSearchParams(location.search);
+  if (![...params.keys()].length) return;
+  const prefs = loadJSON(PREFS_KEY, {});
+  if (params.has('q')) prefs.search = params.get('q');
+  if (params.has('src')) prefs.source = params.get('src');
+  if (params.has('status')) prefs.status = params.get('status');
+  if (params.has('kw')) prefs.kwInclude = params.get('kw');
+  if (params.has('ex')) prefs.kwExclude = params.get('ex');
+  if (params.has('lang')) prefs.lang = params.get('lang');
+  if (params.has('old')) prefs.hideOld = params.get('old') !== '0';
+  if (params.has('disc')) prefs.hideDiscarded = params.get('disc') !== '0';
+  saveJSON(PREFS_KEY, prefs);
+}
+
+function buildShareURL() {
+  const params = new URLSearchParams();
+  const search = $('search').value.trim();
+  if (search) params.set('q', search);
+  const src = $('filter-source').value;
+  if (src) params.set('src', src);
+  const status = $('filter-status').value;
+  if (status) params.set('status', status);
+  const kw = $('kw-include').value.trim();
+  if (kw) params.set('kw', kw);
+  const ex = $('kw-exclude').value.trim();
+  if (ex) params.set('ex', ex);
+  const lang = $('filter-lang').value;
+  if (lang) params.set('lang', lang);
+  if (!$('hide-old').checked) params.set('old', '0');
+  if (!$('hide-discarded').checked) params.set('disc', '0');
+  const qs = params.toString();
+  return location.origin + location.pathname + (qs ? '?' + qs : '');
+}
+
+async function shareSearch() {
+  const url = buildShareURL();
+  const ok = await copyText(url);
+  const btn = $('btn-share');
+  const original = btn.textContent;
+  btn.textContent = ok ? '¡Link copiado!' : 'No se pudo copiar';
+  if (!ok) window.prompt('Copiá este link:', url);
+  setTimeout(() => { btn.textContent = original; }, 1600);
+}
+
 function init() {
+  applyURLParams();
   restorePrefs();
 
   let debounce;
@@ -320,10 +439,22 @@ function init() {
     clearTimeout(debounce);
     debounce = setTimeout(render, 150);
   });
+  $('kw-include').addEventListener('input', () => {
+    persistPrefs();
+    clearTimeout(debounce);
+    debounce = setTimeout(render, 150);
+  });
+  $('kw-exclude').addEventListener('input', () => {
+    persistPrefs();
+    clearTimeout(debounce);
+    debounce = setTimeout(render, 150);
+  });
   $('filter-source').addEventListener('change', () => { persistPrefs(); render(); });
   $('filter-status').addEventListener('change', () => { persistPrefs(); render(); });
+  $('filter-lang').addEventListener('change', () => { persistPrefs(); render(); });
   $('hide-discarded').addEventListener('change', () => { persistPrefs(); render(); });
   $('hide-old').addEventListener('change', () => { persistPrefs(); render(); });
+  $('btn-share').addEventListener('click', shareSearch);
   $('btn-refresh').addEventListener('click', () => {
     loadJobs();
   });

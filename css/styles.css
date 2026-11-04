@@ -79,6 +79,8 @@ h1{
   background:var(--surface); border:1px solid var(--border); color:var(--text);
   padding:10px 12px; border-radius:8px; font-family:inherit; font-size:13px;
 }
+.filters-extra{margin-top:-4px;}
+.filters-extra input[type="text"]{min-width:220px;}
 .filters input::placeholder{color:var(--muted);}
 .filters input:focus, .filters select:focus{outline:none; border-color:var(--signal);}
 .check{
@@ -146,6 +148,10 @@ button:disabled{opacity:.45; cursor:default;}
 .kw{
   font-size:11px; background:var(--signal-dim); color:var(--signal);
   padding:3px 8px; border-radius:20px;
+}
+.lang-chip{
+  font-size:10.5px; color:var(--muted); border:1px solid var(--border);
+  padding:2px 7px; border-radius:20px;
 }
 
 .job-actions{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}

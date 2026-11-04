@@ -46,6 +46,18 @@
     <button id="btn-mark-all" class="ghost-btn" title="Pasar todas las ofertas nuevas a Revisado">Marcar todas revisadas</button>
   </div>
 
+  <div class="filters filters-extra">
+    <input type="text" id="kw-include" placeholder="Incluir palabras clave (ej: marketing, inglés, trainee) — separadas por coma" autocomplete="off">
+    <input type="text" id="kw-exclude" placeholder="Excluir palabras (ej: ventas, presencial) — separadas por coma" autocomplete="off">
+    <select id="filter-lang" title="Idioma del anuncio">
+      <option value="">Todos los idiomas</option>
+      <option value="es">Español</option>
+      <option value="en">Inglés</option>
+      <option value="pt">Portugués</option>
+    </select>
+    <button id="btn-share" class="ghost-btn" title="Copiar un link con estos filtros">Copiar link de búsqueda</button>
+  </div>
+
   <div id="job-list"></div>
   <div class="empty" id="empty-state" style="display:none;">No hay ofertas que coincidan con el filtro.</div>
 
