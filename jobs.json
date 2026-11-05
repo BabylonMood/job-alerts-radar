@@ -1,5 +1,18 @@
 [
   {
+    "id": "e2a82604865a0599",
+    "title": "Operations Project Manager, Strategy & Ops, SMM",
+    "company": "Novartis ACC",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4485031808/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-05T15:39:53.448231+00:00",
+    "snippet": "Operations Project Manager, Strategy & Ops, SMM · Novartis ACC · Argentina",
+    "status": "new"
+  },
+  {
     "id": "1cb30231850229cb",
     "title": "Operations Manager",
     "company": "Formulated Automation",
@@ -1335,19 +1348,6 @@
     ],
     "found_at": "2026-10-07T11:15:00+00:00",
     "snippet": "Product Owner · Grupo Modelo · Buenos Aires",
-    "status": "new"
-  },
-  {
-    "id": "ex-0005",
-    "title": "Asistente Ejecutiva",
-    "company": "Consultora Demo",
-    "source": "zonajobs",
-    "url": "https://example.com/ofertas/asistente-ejecutiva-consultora-demo",
-    "matched_keywords": [
-      "asistente ejecutiva"
-    ],
-    "found_at": "2026-10-06T15:30:00+00:00",
-    "snippet": "Asistente Ejecutiva · Consultora Demo · Remoto",
     "status": "new"
   }
 ]
