@@ -1,5 +1,31 @@
 [
   {
+    "id": "84c40a9e2ea39ab2",
+    "title": "Project Manager – Video Agency",
+    "company": "Virtustant",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4485841562/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-06T16:26:18.566311+00:00",
+    "snippet": "Project Manager – Video Agency · Virtustant · Argentina",
+    "status": "new"
+  },
+  {
+    "id": "7719b20e78965cd0",
+    "title": "Project Manager",
+    "company": "ICON Strategic Solutions",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4487573586/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-06T16:26:19.011620+00:00",
+    "snippet": "Project Manager · ICON Strategic Solutions · Argentina",
+    "status": "new"
+  },
+  {
     "id": "7f4302239a954aad",
     "title": "Junior Recruiter",
     "company": "Vintti",
@@ -1389,19 +1415,6 @@
     ],
     "found_at": "2026-10-08T17:42:00+00:00",
     "snippet": "Marketing Automation Specialist · Agencia Muestra · Remoto",
-    "status": "new"
-  },
-  {
-    "id": "ex-0004",
-    "title": "Product Owner",
-    "company": "Grupo Modelo",
-    "source": "bumeran",
-    "url": "https://example.com/ofertas/product-owner-grupo-modelo",
-    "matched_keywords": [
-      "project management"
-    ],
-    "found_at": "2026-10-07T11:15:00+00:00",
-    "snippet": "Product Owner · Grupo Modelo · Buenos Aires",
     "status": "new"
   }
 ]
