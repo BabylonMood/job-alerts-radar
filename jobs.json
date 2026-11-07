@@ -1417,18 +1417,5 @@
     "found_at": "2026-10-09T09:05:00+00:00",
     "snippet": "Coordinador de Operaciones · Cooperativa Demo · Híbrido",
     "status": "new"
-  },
-  {
-    "id": "ex-0003",
-    "title": "Marketing Automation Specialist",
-    "company": "Agencia Muestra",
-    "source": "linkedin",
-    "url": "https://example.com/ofertas/marketing-automation-agencia-muestra",
-    "matched_keywords": [
-      "agencia de marketing"
-    ],
-    "found_at": "2026-10-08T17:42:00+00:00",
-    "snippet": "Marketing Automation Specialist · Agencia Muestra · Remoto",
-    "status": "new"
   }
 ]
