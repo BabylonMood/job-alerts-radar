@@ -1,5 +1,31 @@
 [
   {
+    "id": "6475b582b4642dda",
+    "title": "Un nuevo empleo coincide con tus preferencias.",
+    "company": "Project Manager Web (Drupal)",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4436791032/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-08T15:25:18.448523+00:00",
+    "snippet": "Un nuevo empleo coincide con tus preferencias. · Project Manager Web (Drupal) · Centro de Observación y Teledetección Espacial S.A.U. - COTESA",
+    "status": "new"
+  },
+  {
+    "id": "c6c4e707985d060c",
+    "title": "Head of Marketing (Remote)",
+    "company": "Viva Talent",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4488724395/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-11-08T15:25:18.808598+00:00",
+    "snippet": "Head of Marketing (Remote) · Viva Talent · Argentina",
+    "status": "new"
+  },
+  {
     "id": "6a30e691cda40a41",
     "title": "Payroll Implementation Project Manager – Nordic Countries | Temporary Role",
     "company": "ABB",
@@ -1416,19 +1442,6 @@
     ],
     "found_at": "2026-10-10T13:20:00+00:00",
     "snippet": "Project Manager · Estudio Ejemplo · Remoto",
-    "status": "new"
-  },
-  {
-    "id": "ex-0002",
-    "title": "Coordinador de Operaciones",
-    "company": "Cooperativa Demo",
-    "source": "computrabajo",
-    "url": "https://example.com/ofertas/coordinador-operaciones-cooperativa-demo",
-    "matched_keywords": [
-      "coordinador de operaciones"
-    ],
-    "found_at": "2026-10-09T09:05:00+00:00",
-    "snippet": "Coordinador de Operaciones · Cooperativa Demo · Híbrido",
     "status": "new"
   }
 ]
