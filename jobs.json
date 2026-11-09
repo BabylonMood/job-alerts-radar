@@ -1,5 +1,18 @@
 [
   {
+    "id": "fc1b19861daa1b93",
+    "title": "Project Manager - Digital Talent & Transformation Office (DiTTO) - Supervising Associate - EY GDS",
+    "company": "EY",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4470376538/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-09T21:10:27.251860+00:00",
+    "snippet": "Project Manager - Digital Talent & Transformation Office (DiTTO) - Supervising Associate - EY GDS · EY · Buenos Aires",
+    "status": "new"
+  },
+  {
     "id": "9bbac9c6d5a4ba13",
     "title": "Project Manager",
     "company": "Ctrl",
@@ -1455,19 +1468,6 @@
     ],
     "found_at": "2026-10-14T05:35:16.491649+00:00",
     "snippet": "SEO Project Manager (Remote, Asuncion) · Blacksmith Agency · Paraguay",
-    "status": "new"
-  },
-  {
-    "id": "ex-0001",
-    "title": "Project Manager",
-    "company": "Estudio Ejemplo",
-    "source": "linkedin",
-    "url": "https://example.com/ofertas/project-manager-estudio-ejemplo",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-10T13:20:00+00:00",
-    "snippet": "Project Manager · Estudio Ejemplo · Remoto",
     "status": "new"
   }
 ]
