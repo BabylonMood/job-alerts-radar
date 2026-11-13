@@ -1,5 +1,32 @@
 [
   {
+    "id": "53dfb9dd0efa88d7",
+    "title": "Brand and Marketing Manager",
+    "company": "Natureganix",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4490524429/",
+    "matched_keywords": [
+      "marketing manager",
+      "marketing"
+    ],
+    "found_at": "2026-11-13T23:59:43.446081+00:00",
+    "snippet": "Brand and Marketing Manager · Natureganix · Ciudad de México, México",
+    "status": "new"
+  },
+  {
+    "id": "02a500cff0d21305",
+    "title": "Asistente Administrativo",
+    "company": "iBoost Social",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4478704667/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-11-13T23:59:44.770846+00:00",
+    "snippet": "Asistente Administrativo · iBoost Social - Agencia de Marketing · México, México",
+    "status": "new"
+  },
+  {
     "id": "83e75a883ff8da9a",
     "title": "Especialista en marketing - Prospección B2B",
     "company": "America Digital",
@@ -1541,45 +1568,6 @@
     ],
     "found_at": "2026-10-15T11:47:04.594459+00:00",
     "snippet": "Project Manager (Argentina) · Indero (formerly Innovaderm) · Buenos Aires y alrededores",
-    "status": "new"
-  },
-  {
-    "id": "d42642e567dddb73",
-    "title": "Operations Manager",
-    "company": "Virtustant",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4476066298/",
-    "matched_keywords": [
-      "operations manager"
-    ],
-    "found_at": "2026-10-14T22:47:14.631077+00:00",
-    "snippet": "Operations Manager · Virtustant · Argentina",
-    "status": "new"
-  },
-  {
-    "id": "e9f0cbe98c33fe2c",
-    "title": "Project Manager",
-    "company": "Remote Leverage",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4478705765/",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-14T22:47:15.134196+00:00",
-    "snippet": "Project Manager · Remote Leverage · América Latina",
-    "status": "new"
-  },
-  {
-    "id": "2d6c23a5aef877dd",
-    "title": "SEO Project Manager (Remote, Pereira)",
-    "company": "Blacksmith Agency",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4479051994/",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-14T19:48:24.564802+00:00",
-    "snippet": "SEO Project Manager (Remote, Pereira) · Blacksmith Agency · Colombia",
     "status": "new"
   }
 ]
