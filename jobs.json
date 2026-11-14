@@ -1,5 +1,18 @@
 [
   {
+    "id": "8748bcc72e76e0dd",
+    "title": "Practicante de Marketing Digital",
+    "company": "Grupo BTC LATAM",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4490591639/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-11-14T22:37:25.568319+00:00",
+    "snippet": "Practicante de Marketing Digital · Grupo BTC LATAM · Perú",
+    "status": "new"
+  },
+  {
     "id": "53dfb9dd0efa88d7",
     "title": "Brand and Marketing Manager",
     "company": "Natureganix",
@@ -1529,19 +1542,6 @@
     ],
     "found_at": "2026-10-15T22:44:58.443161+00:00",
     "snippet": "Assistant Account Manager · Teilur Talent · México",
-    "status": "new"
-  },
-  {
-    "id": "a74ba853a7a76efe",
-    "title": "Project Manager",
-    "company": "Ripio",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4478447698",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-15T19:32:35.725363+00:00",
-    "snippet": "Project Manager · Ripio · Argentina",
     "status": "new"
   }
 ]
