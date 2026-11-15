@@ -1,5 +1,18 @@
 [
   {
+    "id": "1f488105741021f0",
+    "title": "Asesor de Soporte Funcional - Junior",
+    "company": "SmartHR Latam",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4488998925/",
+    "matched_keywords": [
+      "junior"
+    ],
+    "found_at": "2026-11-15T21:23:55.021854+00:00",
+    "snippet": "Asesor de Soporte Funcional - Junior · SmartHR Latam · Barranco",
+    "status": "new"
+  },
+  {
     "id": "8748bcc72e76e0dd",
     "title": "Practicante de Marketing Digital",
     "company": "Grupo BTC LATAM",
@@ -1490,19 +1503,6 @@
     ],
     "found_at": "2026-10-17T00:01:16.432775+00:00",
     "snippet": "Marketing Operations Project Manager (Remote, Lima) · Blacksmith Agency · Perú",
-    "status": "new"
-  },
-  {
-    "id": "20ea18446465fbc7",
-    "title": "Marketing Project Manager (Remote, Ibague)",
-    "company": "Blacksmith Agency",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4479559907/",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-16T18:29:31.931831+00:00",
-    "snippet": "Marketing Project Manager (Remote, Ibague) · Blacksmith Agency · Colombia",
     "status": "new"
   }
 ]
