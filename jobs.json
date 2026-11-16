@@ -1,5 +1,19 @@
 [
   {
+    "id": "4c9bbf9fbb1cb83b",
+    "title": "Marketing Manager – Argentina",
+    "company": "Xiaomi Technology",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4489830691/",
+    "matched_keywords": [
+      "marketing manager",
+      "marketing"
+    ],
+    "found_at": "2026-11-16T01:12:17.338251+00:00",
+    "snippet": "Marketing Manager – Argentina · Xiaomi Technology · Buenos Aires y alrededores",
+    "status": "new"
+  },
+  {
     "id": "1f488105741021f0",
     "title": "Asesor de Soporte Funcional - Junior",
     "company": "SmartHR Latam",
@@ -1490,19 +1504,6 @@
     ],
     "found_at": "2026-10-17T04:43:23.927817+00:00",
     "snippet": "Senior ICF Project Manager · Thermo Fisher Scientific · Argentina",
-    "status": "new"
-  },
-  {
-    "id": "3865a3d9bc92b051",
-    "title": "Marketing Operations Project Manager (Remote, Lima)",
-    "company": "Blacksmith Agency",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4480100865/",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-17T00:01:16.432775+00:00",
-    "snippet": "Marketing Operations Project Manager (Remote, Lima) · Blacksmith Agency · Perú",
     "status": "new"
   }
 ]
