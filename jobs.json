@@ -1,5 +1,18 @@
 [
   {
+    "id": "44530f701cf1d879",
+    "title": "Project Manager - Remote Work",
+    "company": "BairesDev",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4491188987/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-19T00:34:15.887606+00:00",
+    "snippet": "Project Manager - Remote Work · BairesDev · España",
+    "status": "new"
+  },
+  {
     "id": "27f9eaa0f30f5b8c",
     "title": "Coordinadora de Marketing",
     "company": "Grupo Consultor EFE™",
@@ -1412,20 +1425,6 @@
     ],
     "found_at": "2026-10-20T19:24:41.458192+00:00",
     "snippet": "Operations Project Manager · Monks · Ciudad de México",
-    "status": "new"
-  },
-  {
-    "id": "5c36ddd29ce6f32f",
-    "title": "Regional Manager, Client & Project Management (PMO)",
-    "company": "Omnicom Media LATAM",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4480922070/",
-    "matched_keywords": [
-      "project management",
-      "pmo"
-    ],
-    "found_at": "2026-10-19T20:46:33.802234+00:00",
-    "snippet": "Regional Manager, Client & Project Management (PMO) · Omnicom Media LATAM · Bogotá",
     "status": "new"
   }
 ]
