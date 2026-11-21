@@ -1,5 +1,20 @@
 [
   {
+    "id": "a570c3a46e0c2001",
+    "title": "Marketing Project Manager (Remote, San Salvador)",
+    "company": "Blacksmith Agency",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4492983373/",
+    "matched_keywords": [
+      "marketing project manager",
+      "project manager",
+      "marketing"
+    ],
+    "found_at": "2026-11-21T17:40:58.660754+00:00",
+    "snippet": "Marketing Project Manager (Remote, San Salvador) · Blacksmith Agency · El Salvador",
+    "status": "new"
+  },
+  {
     "id": "2a3fc33b1618fbad",
     "title": "Project Manager | Migración global de centros de contacto | 100% Teletrabajo",
     "company": "METRICA",
@@ -1389,38 +1404,6 @@
     ],
     "found_at": "2026-10-22T20:38:59.249496+00:00",
     "snippet": "QA Automation Trainee | Mujeres en Tecnología (Regiones) · Accenture Chile · Valparaíso, Región de Valparaíso, Chile",
-    "status": "new"
-  },
-  {
-    "id": "96981bcd93a1dd1c",
-    "title": "Tu solicitud para el puesto de Project Manager",
-    "company": "Gravity Global",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/help/linkedin/answer/4788",
-    "matched_keywords": [
-      "project manager",
-      "marketing",
-      "automation",
-      "workflow"
-    ],
-    "found_at": "2026-10-22T17:23:35.087828+00:00",
-    "snippet": "Tu actualización de Gravity Global ---------------------------------------- Este email está dirigido a Iara Carrero (Project Manager | Marketing Operations & Workflow Automation (AI).) Averigua por qué incluimos esto",
-    "status": "new"
-  },
-  {
-    "id": "42fac653b2000258",
-    "title": "Tu solicitud para el puesto de Project Coordinator",
-    "company": "Interlix",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/help/linkedin/answer/4788",
-    "matched_keywords": [
-      "project manager",
-      "marketing",
-      "automation",
-      "workflow"
-    ],
-    "found_at": "2026-10-22T17:23:35.621599+00:00",
-    "snippet": "Tu actualización de Interlix Staffing ---------------------------------------- Este email está dirigido a Iara Carrero (Project Manager | Marketing Operations & Workflow Automation (AI).) Averigua por qué incluimos esto",
     "status": "new"
   }
 ]
