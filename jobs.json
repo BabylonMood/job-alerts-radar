@@ -1,5 +1,18 @@
 [
   {
+    "id": "431c16ea7c371358",
+    "title": "Regional Head of Project Management - Americas",
+    "company": "One Mobility Group",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4492556965/",
+    "matched_keywords": [
+      "project management"
+    ],
+    "found_at": "2026-11-21T22:31:31.187087+00:00",
+    "snippet": "Regional Head of Project Management - Americas · One Mobility Group · Comonfort, MEX",
+    "status": "new"
+  },
+  {
     "id": "a570c3a46e0c2001",
     "title": "Marketing Project Manager (Remote, San Salvador)",
     "company": "Blacksmith Agency",
@@ -1390,20 +1403,6 @@
     ],
     "found_at": "2026-10-23T12:55:48.878731+00:00",
     "snippet": "Project Manager - Remote Work · BairesDev · Argentina",
-    "status": "new"
-  },
-  {
-    "id": "dddc1bbbc115df4d",
-    "title": "QA Automation Trainee | Mujeres en Tecnología (Regiones)",
-    "company": "Accenture Chile",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4459762468",
-    "matched_keywords": [
-      "automation",
-      "trainee"
-    ],
-    "found_at": "2026-10-22T20:38:59.249496+00:00",
-    "snippet": "QA Automation Trainee | Mujeres en Tecnología (Regiones) · Accenture Chile · Valparaíso, Región de Valparaíso, Chile",
     "status": "new"
   }
 ]
