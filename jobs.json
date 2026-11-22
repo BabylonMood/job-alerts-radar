@@ -1,5 +1,58 @@
 [
   {
+    "id": "dee209a167083bf5",
+    "title": "Data Strategist Trainee",
+    "company": "Digitas Argentina",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4489505210",
+    "matched_keywords": [
+      "trainee"
+    ],
+    "found_at": "2026-11-22T23:06:12.355328+00:00",
+    "snippet": "Data Strategist Trainee · Digitas Argentina · Buenos Aires, Provincia de Buenos Aires, Argentina",
+    "status": "new"
+  },
+  {
+    "id": "88cd0ea5431d742a",
+    "title": "Director(a) de Ingeniería y Gestión de Proyectos (Alcance Regional / Empresas Multinacionales)",
+    "company": "Nutresa",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4492844194/",
+    "matched_keywords": [
+      "gestion de proyectos"
+    ],
+    "found_at": "2026-11-22T23:06:13.440801+00:00",
+    "snippet": "Director(a) de Ingeniería y Gestión de Proyectos (Alcance Regional / Empresas Multinacionales) · Nutresa · Medellín",
+    "status": "new"
+  },
+  {
+    "id": "509606a709fff97b",
+    "title": "Marketing Trainee",
+    "company": "Beiersdorf",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4491671057/",
+    "matched_keywords": [
+      "marketing",
+      "trainee"
+    ],
+    "found_at": "2026-11-22T23:06:13.808309+00:00",
+    "snippet": "Marketing Trainee · Beiersdorf · Buenos Aires",
+    "status": "new"
+  },
+  {
+    "id": "f46bea04e199362d",
+    "title": "Project Coordinator – Marketing Agency",
+    "company": "Virtustant",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4492306839/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-11-22T23:06:15.340008+00:00",
+    "snippet": "Project Coordinator – Marketing Agency · Virtustant · Argentina",
+    "status": "new"
+  },
+  {
     "id": "fefdcc2587dc58b2",
     "title": "Lead Project Manager - Bilingual",
     "company": "Concentrix",
@@ -1404,32 +1457,6 @@
     ],
     "found_at": "2026-10-24T07:27:50.452290+00:00",
     "snippet": "EY FastPass - Trainee AI&Data. · EY · Área metropolitana de Santiago",
-    "status": "new"
-  },
-  {
-    "id": "c5c197659ac37440",
-    "title": "IT Project Manager con Inglés alto - 100% Remoto (H/M/X)",
-    "company": "Experis España",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4480056610/",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-23T20:44:34.509383+00:00",
-    "snippet": "IT Project Manager con Inglés alto - 100% Remoto (H/M/X) · Experis España · Barcelona",
-    "status": "new"
-  },
-  {
-    "id": "1617fe9ce1cbc237",
-    "title": "Technical Project Manager - Remote Work",
-    "company": "BairesDev",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4481156681/",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-23T20:44:34.920518+00:00",
-    "snippet": "Technical Project Manager - Remote Work · BairesDev · Colombia",
     "status": "new"
   }
 ]
