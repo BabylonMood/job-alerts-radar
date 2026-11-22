@@ -1,5 +1,18 @@
 [
   {
+    "id": "fefdcc2587dc58b2",
+    "title": "Lead Project Manager - Bilingual",
+    "company": "Concentrix",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4483099410/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-22T17:57:13.903644+00:00",
+    "snippet": "Lead Project Manager - Bilingual · Concentrix · Buenos Aires",
+    "status": "new"
+  },
+  {
     "id": "daf11538f7d88976",
     "title": "Project Manager",
     "company": "Hyland",
@@ -1417,35 +1430,6 @@
     ],
     "found_at": "2026-10-23T20:44:34.920518+00:00",
     "snippet": "Technical Project Manager - Remote Work · BairesDev · Colombia",
-    "status": "new"
-  },
-  {
-    "id": "3dd248fb0305cc8c",
-    "title": "AUTOMY ha visto tu solicitud",
-    "company": "No especificada",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/help/linkedin/answer/4788",
-    "matched_keywords": [
-      "project manager",
-      "marketing",
-      "automation",
-      "workflow"
-    ],
-    "found_at": "2026-10-23T17:36:15.897888+00:00",
-    "snippet": "Este email está dirigido a Iara Carrero (Project Manager | Marketing Operations & Workflow Automation (AI).) Averigua por qué incluimos esto",
-    "status": "new"
-  },
-  {
-    "id": "08a573ee002b6808",
-    "title": "Project Manager - Remote Work",
-    "company": "BairesDev",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4481611111/",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-23T12:55:48.878731+00:00",
-    "snippet": "Project Manager - Remote Work · BairesDev · Argentina",
     "status": "new"
   }
 ]
