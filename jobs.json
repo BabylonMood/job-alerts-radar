@@ -1,5 +1,33 @@
 [
   {
+    "id": "daf11538f7d88976",
+    "title": "Project Manager",
+    "company": "Hyland",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4492528108/",
+    "matched_keywords": [
+      "project manager"
+    ],
+    "found_at": "2026-11-22T10:27:50.289602+00:00",
+    "snippet": "Project Manager · Hyland · Colombia",
+    "status": "new"
+  },
+  {
+    "id": "81d320345ed468e9",
+    "title": "Marketing Project Manager",
+    "company": "Mappa",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4492971582/",
+    "matched_keywords": [
+      "marketing project manager",
+      "project manager",
+      "marketing"
+    ],
+    "found_at": "2026-11-22T10:27:51.438467+00:00",
+    "snippet": "Marketing Project Manager · Mappa · México",
+    "status": "new"
+  },
+  {
     "id": "b11d5a260a7342c5",
     "title": "Project Marketing Manager",
     "company": "Mappa",
