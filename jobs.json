@@ -1,5 +1,18 @@
 [
   {
+    "id": "d3112faae34e7873",
+    "title": "Lider de PMO",
+    "company": "GDN AR",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4484854842/",
+    "matched_keywords": [
+      "pmo"
+    ],
+    "found_at": "2026-11-23T13:47:42.362737+00:00",
+    "snippet": "Lider de PMO · GDN AR · Buenos Aires y alrededores",
+    "status": "new"
+  },
+  {
     "id": "dee209a167083bf5",
     "title": "Data Strategist Trainee",
     "company": "Digitas Argentina",
@@ -1431,32 +1444,6 @@
     ],
     "found_at": "2026-10-24T18:53:52.512822+00:00",
     "snippet": "Director, Project Management · Worley · Bogotá",
-    "status": "new"
-  },
-  {
-    "id": "9d0b7e7da68844f5",
-    "title": "Marketing Operations Partner - Remote Work",
-    "company": "BairesDev",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4481130704/",
-    "matched_keywords": [
-      "marketing"
-    ],
-    "found_at": "2026-10-24T12:08:15.542862+00:00",
-    "snippet": "Marketing Operations Partner - Remote Work · BairesDev · Colombia",
-    "status": "new"
-  },
-  {
-    "id": "4088b5954ee4ec87",
-    "title": "EY FastPass - Trainee AI&Data.",
-    "company": "EY",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4472647671/",
-    "matched_keywords": [
-      "trainee"
-    ],
-    "found_at": "2026-10-24T07:27:50.452290+00:00",
-    "snippet": "EY FastPass - Trainee AI&Data. · EY · Área metropolitana de Santiago",
     "status": "new"
   }
 ]
