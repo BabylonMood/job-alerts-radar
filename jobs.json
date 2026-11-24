@@ -1,5 +1,48 @@
 [
   {
+    "id": "51b4ef8faddf5a4d",
+    "title": "Iara, solicita el puesto de Marketing Trainee",
+    "company": "Beiersdorf y más",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/help/linkedin/answer/4788",
+    "matched_keywords": [
+      "project manager",
+      "marketing",
+      "automation",
+      "workflow",
+      "trainee"
+    ],
+    "found_at": "2026-11-24T01:19:08.606750+00:00",
+    "snippet": "Este email está dirigido a Iara Carrero (Project Manager | Marketing Operations & Workflow Automation (AI).) Averigua por qué incluimos esto",
+    "status": "new"
+  },
+  {
+    "id": "9ebf367a9a54326a",
+    "title": "Un nuevo empleo coincide con tus preferencias.",
+    "company": "Supervisor, Marketing",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4492326332/",
+    "matched_keywords": [
+      "marketing"
+    ],
+    "found_at": "2026-11-24T01:19:09.760140+00:00",
+    "snippet": "Un nuevo empleo coincide con tus preferencias. · Supervisor, Marketing · Baxter International Inc.",
+    "status": "new"
+  },
+  {
+    "id": "7898c02716138b5c",
+    "title": "Un nuevo empleo coincide con tus preferencias.",
+    "company": "Account Manager",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4492370135/",
+    "matched_keywords": [
+      "account manager"
+    ],
+    "found_at": "2026-11-24T01:19:10.682997+00:00",
+    "snippet": "Un nuevo empleo coincide con tus preferencias. · Account Manager · LDM",
+    "status": "new"
+  },
+  {
     "id": "d3112faae34e7873",
     "title": "Lider de PMO",
     "company": "GDN AR",
@@ -1405,45 +1448,6 @@
     ],
     "found_at": "2026-10-25T15:10:53.719906+00:00",
     "snippet": "Marketing Traffic Manager · Gallagher · Bogotá",
-    "status": "new"
-  },
-  {
-    "id": "99d6b228bd413d17",
-    "title": "Marketing Assistant",
-    "company": "Remote Leverage",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4481298435/",
-    "matched_keywords": [
-      "marketing"
-    ],
-    "found_at": "2026-10-24T21:17:30.450861+00:00",
-    "snippet": "Marketing Assistant · Remote Leverage · América Latina",
-    "status": "new"
-  },
-  {
-    "id": "241f8fd372090591",
-    "title": "Project Manager",
-    "company": "OLIVER Latin America",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4471942892/",
-    "matched_keywords": [
-      "project manager"
-    ],
-    "found_at": "2026-10-24T21:17:31.027547+00:00",
-    "snippet": "Project Manager · OLIVER Latin America · Buenos Aires",
-    "status": "new"
-  },
-  {
-    "id": "afd83d37f934492e",
-    "title": "Director, Project Management",
-    "company": "Worley",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4482727029/",
-    "matched_keywords": [
-      "project management"
-    ],
-    "found_at": "2026-10-24T18:53:52.512822+00:00",
-    "snippet": "Director, Project Management · Worley · Bogotá",
     "status": "new"
   }
 ]
