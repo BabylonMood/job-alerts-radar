@@ -1,5 +1,19 @@
 [
   {
+    "id": "1ab0e33d17569073",
+    "title": "PROJECT MANAGER / MARKETING BTL",
+    "company": "ONE SHOT MEXICO",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/comm/jobs/view/4494787026/",
+    "matched_keywords": [
+      "project manager",
+      "marketing"
+    ],
+    "found_at": "2026-11-27T00:08:43.766402+00:00",
+    "snippet": "PROJECT MANAGER / MARKETING BTL · ONE SHOT MEXICO · Miguel Hidalgo, CDMX, CMX",
+    "status": "new"
+  },
+  {
     "id": "e388788a9e496d78",
     "title": "Director PMO Market Transformation",
     "company": "Mastercard",
@@ -1238,46 +1252,6 @@
     ],
     "found_at": "2026-10-28T08:48:37.219466+00:00",
     "snippet": "AI Marketing Transformation Manager · Pluxee · Miguel Hidalgo, CMX",
-    "status": "new"
-  },
-  {
-    "id": "2b04d3a2a25a8894",
-    "title": "Project Manager, Core",
-    "company": "Power Digital Marketing",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4481463948/",
-    "matched_keywords": [
-      "project manager",
-      "marketing"
-    ],
-    "found_at": "2026-10-27T23:18:09.868171+00:00",
-    "snippet": "Project Manager, Core · Power Digital Marketing · Colombia",
-    "status": "new"
-  },
-  {
-    "id": "fd2ea0a730a17656",
-    "title": "Junior Data Entry - Remote Work",
-    "company": "BairesDev",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4483209684/",
-    "matched_keywords": [
-      "junior"
-    ],
-    "found_at": "2026-10-27T23:18:10.213833+00:00",
-    "snippet": "Junior Data Entry - Remote Work · BairesDev · América Latina",
-    "status": "new"
-  },
-  {
-    "id": "0eeab8bbb5103e59",
-    "title": "Associate Director, Project Management",
-    "company": "Jobgether",
-    "source": "linkedin",
-    "url": "https://www.linkedin.com/comm/jobs/view/4482916945/",
-    "matched_keywords": [
-      "project management"
-    ],
-    "found_at": "2026-10-27T19:43:44.840162+00:00",
-    "snippet": "Associate Director, Project Management · Jobgether · España",
     "status": "new"
   }
 ]
